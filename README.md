@@ -15,8 +15,37 @@ dependencies {
     compile 'com.theomota:tmimageview:0.1'
 }
 ```
-s
+
 #Documentation
+To use the widget, you only need to add this to your xml:
+```
+<com.theomota.tmimageview.TmImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/android_robot"
+            android:layout_centerInParent="true"
+            app:animation="@anim/scale_up"
+            />
+```
+
+You can provide the animation with:
+```
+app:animation="@anim/scale_up"
+```
+it need to be a reference to a XML file with a animation in it.
+if you don't provide any animation the default is a scale up animation.
+
+The lib comes with three animations:
+```
+app:animation="@anim/scale_up"
+```
+```
+app:animation="@anim/scale_down"
+```
+```
+app:animation="@anim/rotate"
+```
 
 #License
 
