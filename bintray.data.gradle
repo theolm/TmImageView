@@ -1,0 +1,25 @@
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'TmImageView'
+
+    publishedGroupId = 'com.theomota'
+    libraryName = 'TmImageView'
+    artifact = 'tmimageview'
+
+    userOrganization = 'theomota'
+
+    libraryDescription = 'AnAndroid library that uses ImageView as a button (with animations).'
+
+    siteUrl = 'https://github.com/theolm/TmImageView'
+    gitUrl = 'https://github.com/theolm/TmImageView.git'
+
+    libraryVersion = '0.1'
+
+    developerId = 'theolm'
+    developerName = 'Theodoro Loureiro Mota'
+    developerEmail = 'theolm.mota@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
