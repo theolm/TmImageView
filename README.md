@@ -7,10 +7,6 @@ A simple android widget to use imageview as a button with animations pass throug
 #Installation
 Import it on your **build.gradle** module.
 ```
-repositories {
-    maven { url  "http://theomota.bintray.com/maven" }
-}
-
 dependencies {
     compile 'com.theomota:tmimageview:0.1'
 }
